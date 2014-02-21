@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <link rel="stylesheet" href="style.css">
+        <title>Lo Que Hay - Samara, Costa Rica</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+        <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" />
+        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+        
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                $(".fancyboxpics a").fancybox({
+	   	'transitionIn'	:	'elastic',
+	   	'transitionOut'	:	'elastic',
+	   	'speedIn'		:	600, 
+	   	'speedOut'		:	200, 
+	   	'overlayShow'	:	false,
+                });
+            });
+        </script>
+    </head><!-- End Head -->
+    <body>
+        <header>
+            <div id="logo"><img src="assets/LQH_blacklogo.png"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pictures.html">Pictures</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class="container">
+                <center><h1>Pictures</h1></center>
+                <center><h3>Click the Camera to start looking through some pictures!</h3></center>
+                <br/><br/><br/><br/>
+                
+                <table class="fancyboxpics" border="0" bordercolor="#FFCC00" width="100%" cellpadding="5" cellspacing="3">
+                    <tr>
+                        <td><a href="assets/pics-01.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-02.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-03.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-00.jpg" data-fancybox-group="thumb2"><img src="assets/camera.png" width="400px"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="assets/pics-04.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-05.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-06.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-07.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="assets/pics-08.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-09.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-10.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                        <td><a href="assets/pics-11.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="assets/pics-12.jpg" data-fancybox-group="thumb2"><img src=""></a></td>
+                    </tr>
+                </table>
+            </div>
+    </body>
+</html>
