@@ -48,7 +48,7 @@ nav li a{
 header {
     height: 145px;
 }
-img#logo {
+#logo img{
     width: 230px;
     height: auto;
     margin: 5px;
@@ -75,7 +75,7 @@ img#logo {
     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-shadow: 0px 3px 3px #FFF;
 }
-h1.main {
+.main h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -83,7 +83,7 @@ h1.main {
     top: 75px;
     left: 15px;
 }
-h2.main {
+.main h2{
     text-align: center;
     font-size: 29pt;
     position: relative;
@@ -91,16 +91,16 @@ h2.main {
     top: 35px;
     color: green;
 }
-img.main {
+.main img{
     display: block;
     margin-left: auto;
     margin-right: auto;  
 }
-p.main  {
+.main p{
     font-size: 11pt;
 }
 
-img#surfboard {
+#surfboard img{
    width: 650px;
    height: auto;
    position: relative;
@@ -115,25 +115,25 @@ img#surfboard {
 /*--- Rooms.html ---*/    
 
 }
-img#roomsmain {
+#roomsmain img{
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-p#roomsmain {
+#roomsmain p{
     font-size: 14pt;
 }
-h1#roomsmain {
+#roomsmain h1{
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
 /*--- Contact.html ---*/
 
-p#contactmain {
+#contactmain p{
     font-size: 14pt;
 }
-h1#contactmain {
+#contactmain p{
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
@@ -152,10 +152,10 @@ h1#contactmain {
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-p#menumain {
+#menumain p{
     font-size: 14pt;
 }
-h1#menumain {
+#menumain h1{
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
@@ -175,14 +175,14 @@ h1#menumain {
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-p#picturesmain {
+#picturesmain p{
     font-size: 14pt;
 }
-h1#picturesmain {
+#picturesmain h1{
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
-td.fancyboxpics {
+.fancyboxpics td{
     position: relative;
     left: 183px;
     bottom: 50px;
