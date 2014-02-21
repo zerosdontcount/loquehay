@@ -48,7 +48,7 @@ nav li a{
 header {
     height: 145px;
 }
-#logo img{
+img#logo {
     width: 230px;
     height: auto;
     margin: 5px;
@@ -75,7 +75,7 @@ header {
     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-shadow: 0px 3px 3px #FFF;
 }
-.main h1 {
+h1.main {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -83,7 +83,7 @@ header {
     top: 75px;
     left: 15px;
 }
-.main h2 {
+h2.main {
     text-align: center;
     font-size: 29pt;
     position: relative;
@@ -91,23 +91,23 @@ header {
     top: 35px;
     color: green;
 }
-.main img{
+img.main {
     display: block;
     margin-left: auto;
     margin-right: auto;  
 }
-.main p {
+p.main  {
     font-size: 11pt;
 }
 
-#surfboard img{
+img#surfboard {
    width: 650px;
    height: auto;
    position: relative;
    top: 50px;
 }
 /*--- Footer starts here ---*/     
-footer{
+#footer{
     height: 70px;
     width: 100%;
     z-index: 2;       
@@ -115,29 +115,25 @@ footer{
 /*--- Rooms.html ---*/    
 
 }
-#roomsmain img{
+img#roomsmain {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-#roomsmain p{
+p#roomsmain {
     font-size: 14pt;
 }
-#roomsmain h1{
+h1#roomsmain {
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
-#3person {
-    font-weight: bold;
-    font-size: 10;
-}
 /*--- Contact.html ---*/
 
-#contactmain p{
+p#contactmain {
     font-size: 14pt;
 }
-#contactmain h1{
+h1#contactmain {
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
@@ -156,10 +152,10 @@ footer{
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-#menumain p{
+p#menumain {
     font-size: 14pt;
 }
-#menumain h1{
+h1#menumain {
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
@@ -179,14 +175,14 @@ footer{
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-#picturesmain p{
+p#picturesmain {
     font-size: 14pt;
 }
-#picturesmain h1{
+h1#picturesmain {
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
-.fancyboxpics td{
+td.fancyboxpics {
     position: relative;
     left: 183px;
     bottom: 50px;
