@@ -115,50 +115,20 @@ header {
 /*--- Rooms.html ---*/    
 
 }
-#roomsmain img{
+img.roomsmain{
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
 }
-#roomsmain p{
+p.roomsmain {
     font-size: 14pt;
 }
-#roomsmain h1{
+.roomsmain h1{
     color: orange;
     text-shadow: 3px 3px 3px #000;
 }
-/*--- Contact.html ---*/
 
-#contactmain p{
-    font-size: 14pt;
-}
-#contactmain p{
-    color: orange;
-    text-shadow: 3px 3px 3px #000;
-}
-/*--- Menu ---*/
-
-#menumain {
-    font-family: helvetica, verdana;
-    padding: 0px 20px 20px 20px;
-    width: 900px;
-    background-color:rgba(89,178,168,0.38);
-    position: absolute;
-    left: 170px;
-    top: 220px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
-}
-#menumain p{
-    font-size: 14pt;
-}
-#menumain h1{
-    color: orange;
-    text-shadow: 3px 3px 3px #000;
-}
 
 /*--- Pictures.html --- */
 
@@ -184,8 +154,10 @@ header {
 }
 .fancyboxpics td{
     position: relative;
-    left: 183px;
+    margin-left: auto;
+    margin-right: auto;
     bottom: 50px;
+    text-align: center;
 }
 #menutable{
     border-spacing: 20px;
